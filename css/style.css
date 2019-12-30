@@ -7,8 +7,8 @@
   width: 40%;
   margin: 0 auto;
 }
-.wrap60 {
-  width: 60%;
+.wrap55 {
+  width: 55%;
   margin: 0 auto;
 }
 .wrap80 {
@@ -40,4 +40,31 @@ ul {
 /* MAIN */
 .main {
   background-color: grey;
+}
+/* MAIN FIRST */
+.main__first {
+  background-color: green;
+  padding: 20px 0;
+}
+.main__first__logos {
+  display: flex;
+  justify-content: space-between;
+}
+.main__first__logos li a svg {
+  height: 24px;
+}
+/* MAIN SECOND */
+.main__second {
+  background-color: blue;
+}
+.main__second__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__second__flex__left {
+  width: 40%
+}
+.main__second__flex__right {
+  width: 60%:
 }
