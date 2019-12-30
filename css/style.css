@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrap40 {
+  width: 40%;
+  margin: 0 auto;
+}
+.wrap60 {
+  width: 60%;
+  margin: 0 auto;
+}
+.wrap80 {
+  width: 80%;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+/* HEADER */
+.header__nav {
+  height: 70px;
+  background-color: red;
+}
+.header__nav__logo {
+  float: left;
+  height: 38px;
+}
+.header__nav__list {
+  float: right;
+}
+.header__nav__list li {
+  display: inline;
+}
+.header__jumbo {
+  background-color: yellow;
+  text-align: center;
+}
+/* MAIN */
+.main {
+  background-color: grey;
+}
