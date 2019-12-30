@@ -23,6 +23,11 @@ ul {
   height: 70px;
   background-color: red;
 }
+.header__nav--clear{
+  content: "";
+  display: table;
+  clear: both;
+}
 .header__nav__logo {
   float: left;
   height: 38px;
@@ -37,6 +42,7 @@ ul {
   background-color: yellow;
   text-align: center;
 }
+
 /* MAIN */
 .main {
   background-color: grey;
@@ -66,5 +72,54 @@ ul {
   width: 40%
 }
 .main__second__flex__right {
-  width: 60%:
+  width: 60%;
+}
+/* MAIN THIRD */
+.main__third {
+  background-color: red;
+}
+.main__third__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__third__flex__left {
+  width: 40%
+}
+.main__third__flex__right {
+  width: 60%;
+}
+/* MAIN FOURTH */
+.main__fourth {
+  background-color: purple;
+}
+.main__fourth__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__fourth__flex__left {
+  width: 40%;
+}
+.main__fourth__flex__right {
+  width: 60%;
+  display:flex;
+}
+.main__fourth__flex__right img {
+  width: 40%;
+}
+/* MAIN FIFTH */
+.main__fifth {
+  background-color: azure;
+}
+.main__fifth__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__fifth__flex__left {
+  width: 50%;
+}
+.main__fifth__flex__right {
+  width: 50%;
 }
