@@ -9,8 +9,8 @@
   width: 40%;
   margin: 0 auto;
 }
-.wrap55 {
-  width: 55%;
+.wrap60 {
+  width: 60%;
   margin: 0 auto;
 }
 .wrap80 {
@@ -34,6 +34,7 @@ a {
   background: rgba(27, 28, 28, 0.97);
   line-height: 70px;
   border-bottom: 1px solid rgba(66,77,81,0.25);
+  z-index: 509;
 }
 .header__nav--clear{
   content: "";
@@ -93,6 +94,7 @@ a {
   font-size: 3em;
   font-weight: bold;
   padding: 22px 0;
+  width: 100%;
 }
 .header__jumbo p {
   font-size: 1.1em;
@@ -189,7 +191,7 @@ a {
 
 /* MAIN THIRD */
 .main__third {
-  background-color: #202527;;
+  background-color: #202527;
 }
 .main__third__flex {
   display: flex;
@@ -213,7 +215,11 @@ a {
 }
 /* MAIN FOURTH */
 .main__fourth {
-  background-color: purple;
+  background-image: url(../img/onda.svg);
+  height: 600px;
+  overflow: hidden;
+  background-position:top;
+  background-size: auto;
 }
 .main__fourth__flex {
   display: flex;
@@ -228,20 +234,85 @@ a {
   display:flex;
 }
 .main__fourth__flex__right img {
-  width: 40%;
+  width: 44%;
+  margin-left: 6%;
+  margin-top: 380px;
 }
 /* MAIN FIFTH */
 .main__fifth {
-  background-color: azure;
+  background-color: white;
+  border-top: 1px solid rgba(66,77,81,0.25);
 }
 .main__fifth__flex {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .main__fifth__flex__left {
   width: 50%;
+  text-align: center;
+  border-right: 1px solid rgba(66,77,81,0.25);
+  padding: 100px 0 100px 0;
 }
 .main__fifth__flex__right {
   width: 50%;
+  text-align: center;
+  overflow: hidden;
+  padding: 100px 0 100px 0;
 }
+.main__p--padding {
+  padding: 0 70px;
+}
+.main__span {
+  display: block;
+  font-size: 0.8em;
+  color: grey;
+  padding-top: 20px;
+  font-style: italic;
+}
+/* FOOTER  */
+.footer {
+  width: 100%;
+  background-color: #202527;
+}
+.footer--clear{
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer__list__ul {
+  float: left;
+  width: 20%;
+  line-height: 25px;
+  padding: 40px 0 40px 0;
+}
+.footer__list__ul a {
+ color: #84949A;
+}
+.footer__list__ul__title {
+  color: #ECEEEF;
+  font-weight: 700;
+}
+.footer__list__ul a:hover {
+  opacity: 0.8;
+}
+.footer__language {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #ECEEEF;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+.footer__language__button {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid 2px #84949A;
+  color: #84949A;
+  border-radius: 4px;
+  padding: 10px 40px 10px 10px;
+  border-radius: 40px;
+}
+.footer__language--padding {
+  padding-bottom: 40px;
+}
+
+/* MEDIAQUERIES */
